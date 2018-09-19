@@ -18,13 +18,13 @@ public class TestCalculator
 	{
 		Calculator calc= new Calculator();
 		int res= calc.subtract(6, 2);
-		Assert.assertEquals(2, res);
+		Assert.assertEquals(4, res);
 	}
 	@Test
 	public void test_multiply()
 	{
 		Calculator calc= new Calculator();
-		int res= calc.add(3, 4);
+		int res= calc.multiple(3, 4);
 		Assert.assertEquals(12, res);
 	}
 	@Test
